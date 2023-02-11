@@ -1,0 +1,32 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.airzon.net/$1 [R=301,L]
+
+#RewriteRule ^sitemap.xml - [L,NC]
+
+RewriteRule index index.php
+RewriteRule aboutus aboutus.php
+RewriteRule photo-gallery photo-gallery.php
+RewriteRule video-gallery video-gallery.php
+RewriteRule inquiry inquiry.php
+RewriteRule contactus contactus.php
+RewriteRule privacy-policy privacy-policy.php
+
+RewriteRule horoscope-reading horoscope-reading.php
+RewriteRule face-reading face-reading.php
+RewriteRule best-astrologer-in-india best-astrologer-in-india.php
+RewriteRule best-tantrik-baba-in-india best-tantrik-baba-in-india.php
+RewriteRule husband-wife-dispute husband-wife-dispute.php
+RewriteRule divorce-problem-solution divorce-problem-solution.php
+RewriteRule family-dispute-resolution family-dispute-resolution.php
+
+RewriteRule love-problem-solution love-problem-solution.php
+RewriteRule love-breakup-solution love-breakup-solution.php
+RewriteRule love-problem-specialist love-problem-specialist.php
+RewriteRule love-astrologer love-astrologer.php
+RewriteRule relationship-problem relationship-problem.php
+RewriteRule get-your-ex-love-back get-your-ex-love-back.php
+RewriteRule love-marriage-astrology love-marriage-astrology.php
+RewriteRule marriage-problem marriage-problem.php
